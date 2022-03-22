@@ -2,6 +2,7 @@
 const prompt = require('prompt-sync')();
 
 let result;
+//receive inputs
 const operator = prompt('enter operator ( either = +,-,*,/ or % ) : ');
 
 const num1 = parseFloat(prompt('enter first number : '));
@@ -28,7 +29,7 @@ switch(operator) {
                console.log(`${num1} % ${num2} = ${result}`);
                break;
        
-    default : console.log(`Invalid operator`);
+    default : console.log(`Invalid-operator`);
               break;             
 
 }
