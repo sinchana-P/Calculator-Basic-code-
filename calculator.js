@@ -9,6 +9,7 @@ const num1 = parseFloat(prompt('enter first number : '));
 const num2 = parseFloat(prompt('enter second number : '));
 
 switch(operator) {
+    
     case '+' : result = num1 + num2 ;
                console.log(`${num1} + ${num2} = ${result}`);
                break;
